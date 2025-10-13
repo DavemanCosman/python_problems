@@ -1,0 +1,15 @@
+# Ignore all log files
+*.log
+
+# Ignore the 'build' directory
+build/
+
+# Ignore the 'node_modules' directory for Node.js projects
+node_modules/
+
+# Ignore specific files
+.env
+config.local.js
+
+# Don't ignore README.md, even if other patterns might match it
+!README.md
