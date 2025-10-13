@@ -1,0 +1,14 @@
+from itertools import product
+
+if __name__ =='__main__':
+    user_input = input("Enter first list of whole numbers, separated by spaces:\n")
+    A = [int(i.strip()) for i in user_input.split(' ')]
+    
+    user_input = input("Enter second list of whole numbers, separated by spaces:\n")
+    B = [int(i.strip()) for i in user_input.split(' ')]
+    
+    print(f"A = {A} | B = {B}")
+    
+    print(' '.join(str(pair) for pair in product(A,B)))
+    
+    #print(list(product(A,B)) )

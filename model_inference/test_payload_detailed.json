@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "vin": "1HGCM82633A004352",
+    "year": 2013,
+    "make": "Honda",
+    "model": "Accord",
+    "mileage":  98500,
+    "text": "This car has excellent fuel efficiency."
+  },
+  {
+    "id": 2,
+    "vin": "2C3KA53G76H123456",
+    "year": 2006,
+    "make": "Chrysler",
+    "model": "300",
+    "mileage": 145200,
+    "text": "The engine started making strange noises after 10,000 miles."
+  },
+  {
+    "id": 3,
+    "vin": "1FTFW1ET1EFA12345",
+    "year": 2014,
+    "make": "Ford",
+    "model": "F-150",
+    "mileage": 86000,
+    "text": "I love the sleek design and smooth ride."
+  },
+  {
+    "id": 4,
+    "vin": "3FA6P0HD1DR123789",
+    "year": 2013,
+    "make": "Ford",
+    "model": "Fusion",
+    "mileage": 112300,
+    "text": "The brakes failed unexpectedly during a short trip."
+  },
+  {
+    "id": 5,
+    "vin": "5XYZGDAB8DG123987",
+    "year": 2013,
+    "make": "Hyundai",
+    "model": "Santa Fe",
+    "mileage": 127500,
+    "text": "This vehicle has been reliable for over five years."
+  },
+  {
+    "id": 6,
+    "vin": "1C4RJFBG8FC123654",
+    "year": 2015,
+    "make": "Jeep",
+    "model": "Grand Cherokee",
+    "mileage":  97500,
+    "text": "The transmission is sluggish and unresponsive."
+  },
+  {
+    "id": 7,
+    "vin": "1G1ZD5STXJF123321",
+    "year": 2018,
+    "make": "Chevrolet",
+    "model": "Malibu",
+    "mileage":  54200,
+    "text": "Fantastic customer service and easy maintenance."
+  },
+  {
+    "id": 8,
+    "vin": "5N1AZ2MH5HN123432",
+    "year": 2017,
+    "make": "Nissan",
+    "model": "Murano",
+    "mileage":  78300,
+    "text": "The dashboard lights keep flickering randomly."
+  },
+  {
+    "id": 9,
+    "vin": "2G1WF52E759123147",
+    "year": 2005,
+    "make": "Chevrolet",
+    "model": "Impala",
+    "mileage": 168400,
+    "text": "Great value for the price and low insurance costs."
+  },
+  {
+    "id": 10,
+    "vin": "1FTSW21P64EB12321",
+    "year": 2004,
+    "make": "Ford",
+    "model": "Super Duty F-250",
+    "mileage": 204500,
+    "text": "Battery died twice in the first month of ownership."
+  }
+]

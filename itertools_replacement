@@ -1,0 +1,12 @@
+from itertools import combinations_with_replacement
+
+if __name__ == '__main__':
+    S, k = input().split()
+    
+    sorted_string = sorted(S)
+    
+    replacement_list = [''.join(r) for r in combinations_with_replacement(sorted_string, int(k))]
+    
+    replacement_list.sort()
+    
+    print('\n'.join(replacement_list))

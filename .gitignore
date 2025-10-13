@@ -11,7 +11,7 @@ node_modules/
 .env
 config.local.js
 
-*/mlopos-ci-test token.txt
+*/mlops-ci-test token.txt
 
 # Don't ignore README.md, even if other patterns might match it
 !README.md
