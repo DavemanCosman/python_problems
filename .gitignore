@@ -13,5 +13,8 @@ config.local.js
 
 */mlops-ci-test token.txt
 
+# Ingore vscode settings
+.vscode/settings.json
+
 # Don't ignore README.md, even if other patterns might match it
 !README.md
