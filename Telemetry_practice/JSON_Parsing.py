@@ -21,16 +21,17 @@ import json
 import pandas as pd
 
 def parse_logs(logs):
-records = []
-for entry in logs:
-  data = json.loads(entry)
-  records.append({
-    "device_id": data["device"]["id"],
-    "timestamp": pd.to_datetime(data["ts"]),
-    "engine_temp": data["metrics"]["engine"],
-    "lat": data["gps"][0],
-    "lon": data["gps"][1]
-  })
-return pd.DataFrame(records)
+  records = []
+  for entry in logs:
+    data = json.loads(entry)
+    records.append({
+      "device_id": data["device"]["id"],
+      "timestamp": pd.to_datetime(data["ts"]),
+      "engine_temp": data["metrics"]["engine"],
+      "lat": data["gps"][0],
+      "lon": data["gps"][1]
+    })
+  return pd.DataFrame(records)
 
-int(df)
+df=parse_logs(logs) #see e.g. input above
+print(df)
