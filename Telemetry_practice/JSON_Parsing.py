@@ -3,7 +3,11 @@
 # * timestamp
 # * engine_temp {temp: value}
 # * gps [lat, long]
-# Return a clean Pandas data frame
+# Return a clean Pandas data frame.
+# (TODO) Account for the following cases:
+# * missing values
+# * 0 < engine_temp < 200 (fill NA if it does not meet the criteria)
+# * (if provided) convert speed from miles to km
 # 
 # e.g. input
 # logs = [
