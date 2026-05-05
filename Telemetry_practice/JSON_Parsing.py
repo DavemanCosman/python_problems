@@ -20,7 +20,7 @@
 import json
 import pandas as pd
 
-sef parse_logs(logs):
+def parse_logs(logs):
 records = []
 for entry in logs:
   data = json.loads(entry)
